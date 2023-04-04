@@ -73,8 +73,8 @@ const usb_endpoint_t usb_endpoints[usb_endpoint_address_last] = {
 };
 
 const usb_string_descriptor_t usb_string_lang                   = USB_ARRAY_DESC(usb_language_code_en_US);
-const usb_string_descriptor_t usb_string_manufacturer           = USB_STRING_DESC("R2AXZ Kirill Kotyagin");
-const usb_string_descriptor_t usb_string_product                = USB_STRING_DESC("Bluepill Serial Monster");
+const usb_string_descriptor_t usb_string_manufacturer           = USB_STRING_DESC("R2AXZ");
+const usb_string_descriptor_t usb_string_product                = USB_STRING_DESC("BSM");
 const usb_string_descriptor_t usb_string_serial                 = USB_STRING_DESC("NO SERIAL"); /* Placeholder, replaced by STM32 UID */
 const usb_string_descriptor_t usb_string_uart_1_interface_name  = USB_STRING_DESC("UART1");
 const usb_string_descriptor_t usb_string_uart_2_interface_name  = USB_STRING_DESC("UART2");
